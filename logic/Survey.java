@@ -13,6 +13,12 @@ import javafx.stage.Stage;
 import javafx.stage.FileChooser.ExtensionFilter;
 
 public class Survey extends Application{
+<<<<<<< HEAD
+=======
+	public static void main(String args []){
+		launch(args);
+	}
+>>>>>>> origin/master
 	
 	File folder = new File(
 			"C:\\Users\\matthew\\Desktop\\Folders\\CS201\\CS202\\Tinvey\\resources\\Confirmed");
@@ -90,4 +96,8 @@ public class Survey extends Application{
 		}
 	}
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/master
