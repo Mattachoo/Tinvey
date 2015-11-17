@@ -26,10 +26,11 @@ public class Runner extends Application {
 		primaryStage.setTitle("Tinvey");
 		BorderPane pane = new BorderPane();
 		pane.getStyleClass().add("pane");
-		Text text = new Text("ROBCO INDUSTRIES UNIFIED OPERATING SYSTEM");
+		Text text = new Text("Test");
 		text.getStyleClass().add("text");
-		VBox vbox = new VBox();
-		Button buttonCurrent = new Button("> Import Survey");
+		VBox vbox = new VBox(text);
+		vbox.getStyleClass().add("vbox");
+		Button buttonCurrent = new Button("Import Survey");
 		buttonCurrent.setPrefSize(200, 20);
 		buttonCurrent.setOnAction(new EventHandler<ActionEvent>() {
 			@Override
@@ -54,8 +55,8 @@ public class Runner extends Application {
 		toolBar.setId("hbox-custom");
 		// vbox.getChildren().addAll(buttonCurrent, buttonProjected);
 		pane.setLeft(toolBar);
-		pane.setTop(text);
-		pane.setRight(vbox);
+		//pane.setTop(text);
+		pane.setRight(vbox);	
 		Scene scene = new Scene(pane, 800, 600);
 		scene.getStylesheets().clear();
 		scene.getStylesheets()

@@ -25,7 +25,7 @@
 
 }
 .pane {
-	-fx-background-color: #063315;
+	
 	-fx-radius: 20;
 	-fx-alignment: TOP_LEFT;
 }
@@ -33,4 +33,7 @@
 	-fx-fill: #14F074;
 	-fx-font: 16px "Fixedsys";
 	
+}
+.vbox {
+	-fx-background-color: red;
 }
