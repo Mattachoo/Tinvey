@@ -1,0 +1,21 @@
+#hbox-custom {
+    -fx-font: 16px "Times New Roman";
+	-fx-spacing: 10px;
+    -fx-padding: 40;
+    -fx-background-color:Cyan;
+	-fx-alignment: CENTER;
+	-fx-border-radius: 100 10 0 0;
+  -fx-radius: 100;
+  -fx-background-radius: 20;
+
+	}
+#vbox-custom{
+-fx-padding: 10px;
+-fx-spacing: 10px;
+-fx-background-color:Red;
+}
+	.button {
+	-fx-background-radius: 10.0;
+	-fx-background-color: #CCFFFF;
+	-fx-allignment: BOTTOM;
+}
